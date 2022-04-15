@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
-  const title = props.expensesDetails.title;
+  let title = props.expensesDetails.title;
   const amount = props.expensesDetails.amount;
   const date = new Date(props.expensesDetails.date);
 
