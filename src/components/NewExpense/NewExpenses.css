@@ -4,3 +4,26 @@
     margin: 2rem auto;
     border-radius: 12px;
 }
+
+.add-expense{
+    font: inherit;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    margin: 0.5rem 0rem;
+    border: 1px solid #40005d;
+    cursor: pointer;
+    background-color: #40005d;
+    color: white;
+    align-items: center;
+}
+
+.add-expense:hover{
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.add-expense__control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
